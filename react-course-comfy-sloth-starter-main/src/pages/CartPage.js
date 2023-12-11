@@ -12,7 +12,7 @@ const CartPage = () => {
         <h2>
           Your cart is empty
         </h2>
-        <Link o="/products" className="btn">fill it</Link>
+        <Link to="/products" className="btn">fill it</Link>
       </div>
     </Wrapper>
   }
