@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 const PageHero = ({title, product}) => {
-  console.log(product)
   return <Wrapper>
     <div className="section-center">
       <h3>
@@ -20,6 +19,7 @@ const Wrapper = styled.section`
   min-height: 20vh;
   display: flex;
   align-items: center;
+  margin-top: 25px;
 
   color: var(--clr-primary-1);
   a {
